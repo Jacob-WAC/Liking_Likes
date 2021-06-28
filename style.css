@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+/* nav bar */
+.nav {
+  background: rgb(95, 95, 95);
+  color: white;
+  box-shadow: 3px 3px 5px black;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  width: 70%;
+  padding: 1% 2%;
+  margin: 0 auto;
+  font-size: 2em;
+  min-width: 1118.6px;
+}
+
+body {
+  min-width: 1596px;
+}
+
+body > h1 {
+  padding: 1%;
+  text-align: center;
+  font-size: 4em;
+}
+
+.main-content-wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  gap: 5%;
+}
+
+.left-wrapper {
+  flex: 1;
+}
+
+.right-wrapper {
+  flex: 2;
+  min-width: 721.233;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.678);
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgba(211, 205, 205, 0.801);
+  margin: 0px auto;
+  min-width: 214.617px;
+}
+
+.profile-container .content {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.profile-container .content a {
+  font-size: 1.3em;
+}
+
+.profile-container .content img {
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  margin: 5% auto;
+
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px black;
+}
+
+.post-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.678);
+  transition: 0.5s;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgba(211, 205, 205, 0.801);
+  margin: 0px auto 40px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 0px;
+  font-size: 1.5em;
+  font-size: 2em;
+}
+
+.upper > p {
+  font-size: 2.4em;
+}
+
+.content > p {
+  font-size: 4em;
+  padding: 40px;
+}
+
+.button-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 2em;
+}
+
+.button-wrapper > p {
+  padding-top: 3%;
+}
+
+.likes-button {
+  background-color: rgba(129, 189, 134, 0.479);
+  border: 0px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 40px;
+  font-size: 1em;
+  box-shadow: 10px 5px 5px black;
+  transition: 0.3s;
+  margin-top: 1%;
+}
+
+.likes-button:active {
+  transition: 0.2s;
+  background-color: white;
+  color: rgb(11, 79, 204);
+  box-shadow: 3px 3px 5px black;
+}
